@@ -31,8 +31,6 @@ namespace IntegrationTests.Tests
             Assert.IsNotNull(checkBox);
             Assert.IsTrue(checkBox is ICheckBoxElment);
             Assert.IsTrue(checkBox.IsChecked());
-
-            checkBox.ToString();
         }
     }
 }
